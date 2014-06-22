@@ -1,0 +1,32 @@
+<!DOCTYPE HTML>
+<html lang="nl">
+
+<head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <meta name="apple-mobile-web-app-title" content="" />
+    <meta name="msapplication-TileImage" content="windows-icon.png" />
+    <meta name="msapplication-TileColor" content="#4fca96" />
+
+    <title>Pollie</title>
+    <meta name="description" content="" />
+    <meta name="author" content="Tom Offringa" />
+
+    <link rel="shortcut icon" href="favicon.ico?20131213" />
+    <link rel="apple-touch-icon-precomposed" href="apple-icon.png" />
+    <%= stylesheet_link_tag    "application", media: "all", "data-turbolinks-track" => true %>
+    <%= javascript_include_tag "application", "data-turbolinks-track" => true %>
+    <%= csrf_meta_tags %>
+    <link href="//fonts.googleapis.com/css?family=Pacifico" rel="stylesheet" type="text/css">
+    <link href='//fonts.googleapis.com/css?family=Gafata' rel='stylesheet' type='text/css'>
+</head>
+
+<body class="<%= @colorclass %>">
+
+<div class="l-container poll--status">
+  <h1><%= @status %></h1>
+</div>
+
+</body>
+
+</html>

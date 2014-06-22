@@ -1,0 +1,23 @@
+body {
+    background: #78cdce;
+
+    &.ongunstig {
+        background: #c5372f;
+    }
+
+    &.gunstig {
+        background: #c5372f;
+    }
+
+}
+
+h1 {
+    color: $white;
+}
+
+.poll--status {
+    margin: auto;
+    width: 350px;
+    text-align: center;
+}
+

@@ -1,0 +1,42 @@
+// =========== Label
+
+%label {
+    border-radius: $border-radius;
+    font-size: 0.75em;
+    font-weight: bold;
+    padding: 0.1em 0.3em;
+}
+
+.label {
+    @extend %label !optional;
+    color: $white;
+    background: $color-brand;
+    -webkit-font-smoothing: antialiased;
+}
+
+.label--contrast {
+    @extend %label !optional;
+    color: $white;
+    background-color: lighten($black, 15%);
+    -webkit-font-smoothing: antialiased;
+}
+
+.label--soft {
+    @extend %label !optional;
+    color: lighten($black, 20%);
+    background: lighten($black, 80%);
+}
+
+.label--success {
+    @extend %label !optional;
+    color: $white;
+    background-color: $color-success;
+    -webkit-font-smoothing: antialiased;
+}
+
+.label--alert {
+    @extend %label !optional;
+    color: $white;
+    background-color: $color-alert;
+    -webkit-font-smoothing: antialiased;
+}
