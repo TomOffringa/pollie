@@ -1,5 +1,8 @@
-<div class="<%= @color_class %>">
+<div class="status <%= @color_class %>">
   <div class="l-container poll--status">
-    <h1><%= @status %></h1>
+    <p>Het hooikoortsweer voor komende week is</p>
+    <h1><%= @status.downcase %></h1>
+    <div class="credits"><p>Pollie is een idee van <a href="http://twitter.com/toffringa">Tom Offringa</a></p></div>
   </div>
+
 </div>
