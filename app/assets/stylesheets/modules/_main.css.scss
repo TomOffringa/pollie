@@ -1,12 +1,28 @@
 body {
     background: #78cdce;
 
-    &.ongunstig {
+    &.zeer-ongunstig {
         background: #c5372f;
     }
 
+    &.ongunstig {
+        background: #fc8d50;
+    }
+
+    &.tamelijk-ongunstig {
+        background: #fcb950;
+    }
+
+    &.tamelijk-gunstig {
+        background: #78cdce;
+    }
+
     &.gunstig {
-        background: #c5372f;
+        background: #00cfaa;
+    }
+
+    &.zeer-gunstig {
+        background: #a4cf00;
     }
 
 }
