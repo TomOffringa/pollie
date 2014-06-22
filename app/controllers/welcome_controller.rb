@@ -17,10 +17,10 @@ class WelcomeController < ApplicationController
   end
 
   def status
-    data.xpath("//desc").text
+    data.xpath('//desc').text
   end
 
   def color_class
-    data.xpath("//txt").text
+    data.xpath('//txt').text
   end
 end
