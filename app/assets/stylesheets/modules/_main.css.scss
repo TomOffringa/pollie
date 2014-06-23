@@ -24,7 +24,7 @@ div.l-container {
 
 .poll--status {
     margin: auto;
-    width: 400px;
+    width: 100%;
     text-align: center;
     margin-top: 350px;
 }
@@ -61,7 +61,8 @@ div.l-container {
     margin: auto;
     position: absolute;
     bottom: 20px;
-    width: 400px;
+    left: 0;
+    right: 0;
     text-align: center;
     p {
         font-size: 80%;
